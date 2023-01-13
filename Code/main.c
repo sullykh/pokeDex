@@ -12,7 +12,7 @@
 
 int main()
 {
-  /*creatin object for pokedex lists*/
+  /*creating object for pokedex lists*/
   struct Pokedex pokedex  = {NULL,NULL};
   /*adding pokemon items*/
   AddPokemonToList(&pokedex,(char*)"Bulbasur",(char*)"Grass",(char*)"Overgrow");
